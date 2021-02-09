@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Selenium_Test1.BDD.Create_UserSteps">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EEAAABAAAAAAAAgAAAAAAQAAAAAAAAAACAAwAAAAAAA=</HashCode>
+      <FileName>BDD\Create_User_Steps.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="JlWebpages" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Selenium_Test1.Jl_WebPages">
+    <Position X="4" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAQACAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAI=</HashCode>
+      <FileName>lib\pages\Jl_WebPages.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CreateUser" />
+      <Property Name="SignInPage" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Selenium_Test1.BDD.Jl_Home_ShoppingSteps">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAACACAAAAAAAAABBAAAAAAAAA=</HashCode>
+      <FileName>BDD\Jl_Home_Shopping_Steps.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="JlWebsite" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Selenium_Test1.BDD.Jl_SignInSteps">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAACAAAAAAAAAAAAAAAAAAAAABBAggAAAAAE=</HashCode>
+      <FileName>BDD\Jl_Sigin_Steps.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="JlWebsite" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Selenium_Test1.CreateUser" Collapsed="true">
+    <Position X="2.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYAAAAAAAAAQAAAAAAAAAAAAgAAEAAAABAAIEAEkABA=</HashCode>
+      <FileName>lib\pages\CreateUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Selenium_Test1.SignInPage" Collapsed="true">
+    <Position X="5.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAgAQAAAAGAIgAAAAAAAEAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>lib\pages\SignInPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

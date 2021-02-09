@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Selenium_Test1.CreateUser" Collapsed="true">
+    <Position X="1.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYAAAAAAAAAQAAAAAAAAAAAAgAAEAAAABAAIEAEkABA=</HashCode>
+      <FileName>lib\pages\CreateUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Selenium_Test1.HomePage">
+    <Position X="3.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAQwBAIAAQAAAAAQAEAAAAAEAEAAAQAAAAAAEAAAA=</HashCode>
+      <FileName>lib\pages\HomePage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Selenium_Test1.Jl_WebPages">
+    <Position X="3.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAQACAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAI=</HashCode>
+      <FileName>lib\pages\Jl_WebPages.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CreateUser" />
+      <Property Name="SignInPage" />
+      <Property Name="HomePage" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Selenium_Test1.SignInPage" Collapsed="true">
+    <Position X="6" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAgAQAAAAGAIgAAAAAAAEAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>lib\pages\SignInPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Selenium_Test1.tests.JL_Bedding" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>tests\JL_Bedding.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Selenium_Test1.tests.JL_SignIn">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAABAAAAEAAAAA=</HashCode>
+      <FileName>tests\JL_Home.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="JlWebsite" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Selenium_Test1.tests.Jl_SignIn" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>tests\Jl_SignIn.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="JlWebsite" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Selenium_Test1.AppConfigReader">
+    <Position X="1.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>AppConfigReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Selenium_Test1.SeleniumDriverConfig">
+    <Position X="6" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAEAAAAAAAAAAAAAAAQAAAgAACAAAAAAAAAAA=</HashCode>
+      <FileName>lib\driver_config\SeleniumDriverConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
