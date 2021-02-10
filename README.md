@@ -32,7 +32,7 @@ The structure of the usecase feature is a followed Given, and, when, then.
 
 Class Diagram
 -------------
-![alt text](http://SpartaDevelopment/FixerIOwalkthrough/Imgs)
+![alt text](https://github.com/N-Adem/Selenium-Specflow-Testing/blob/main/Imgs/PomDiagramImg.png)
 
 Testing
 -------
